@@ -1,0 +1,21 @@
+- type: replace
+  path: /releases/name=diego
+  value:
+    name: diego
+    sha1: d92d29385f7b1020d95cdcd12d97e378773d1168
+    url: https://bosh.io/d/github.com/cloudfoundry/diego-release?v=2.42.0
+    version: 2.42.0
+- type: replace
+  path: /releases/name=garden-runc
+  value:
+    name: garden-runc
+    sha1: 1c678e1c7a3506c0e408860571560081c15e3c6d
+    url: https://bosh.io/d/github.com/cloudfoundry/garden-runc-release?v=1.19.9
+    version: 1.19.9
+- type: replace
+  path: /releases/name=loggregator-agent
+  value:
+    name: loggregator-agent
+    sha1: d62dd7a540210727ac503cc3856722b78184080b
+    url: https://bosh.io/d/github.com/cloudfoundry/loggregator-agent-release?v=5.3.4
+    version: 5.3.4
